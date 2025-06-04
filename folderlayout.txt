@@ -1,0 +1,15 @@
+├── data/
+│   ├── raw_logs/               # Raw AWS VPC logs
+│   └── processed/              # Feature-engineered CSVs or JSON
+├── ml_model/
+│   ├── train_model.py          # ML training pipeline
+│   ├── evaluate_model.py       # Accuracy/precision testing
+│   └── model.pkl               # Saved model file
+├── simulation/
+│   └── simulate_attack.py      # Simulated malicious flow generation
+├── utils/
+│   ├── feature_engineering.py  # Extract features from raw logs
+│   └── aws_fetch_logs.py       # AWS log downloader (CloudWatch or S3)
+├── README.md
+├── requirements.txt
+├── main.py
